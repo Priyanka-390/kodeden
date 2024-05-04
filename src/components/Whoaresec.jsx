@@ -2,7 +2,7 @@ import Image from "next/image";
 import Buttons from "./Buttons";
 export default function Whoaresec() {
   return (
-    <div className="z-0 position-relative pt-sm-0 pt-3">
+    <div className="z-0 overflow-x-clip position-relative pt-sm-0 pt-3">
       <div className="py-lg-5 py-2 position-relative z-1">
         <Image
           width={110.87}

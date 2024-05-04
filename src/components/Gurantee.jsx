@@ -3,7 +3,7 @@ import Buttons from "./Buttons";
 
 export default function Gurantee() {
   return (
-    <div id="faq" className=" pt-sm-0 pt-3 position-relative z-0">
+    <div id="faq" className=" pt-sm-0 overflow-x-clip pt-3 position-relative z-0">
       <Image src="/assets/images/svg/guranteevector.svg" width={160} height={60} alt="gurantee" className="guranteevector d-sm-block d-none position-absolute"/>
       <div className="container">
         <div className="row flex-column-reverse flex-md-row justify-content-between">
@@ -23,7 +23,7 @@ export default function Gurantee() {
                 </div>
                   </div>
                   <div data-aos="fade-left" className="col-lg-5 col-md-6 d-flex justify-content-md-start mb-20 justify-content-center">
-                      <Image width={386} height={313} alt="gurantee" src="/assets/images/webp/guranteelogo.webp" className="max-lg-w-360 object-fit-contain w-lg-100" />
+                      <Image width={386} height={313} alt="gurantee" src="/assets/images/webp/guranteelogo.webp" className="max-lg-w-360 my-45 max-md-h-380 object-fit-contain w-lg-100" />
                   </div>
         </div>
       </div>

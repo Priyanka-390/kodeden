@@ -30,13 +30,13 @@ export default function Home() {
     }, 3000);
   }, []);
   return (
-     <div>
+     <div className="overflow-x-clip">
       {loder ? (
         <div>
           <Preloader />
         </div>
       ) : (
-      <div className="bg-black">
+      <div className="bg-black1">
         <div className="herobg">
         <Mynav />
         <Herosec/>

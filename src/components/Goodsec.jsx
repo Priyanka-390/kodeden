@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Goodsec() {
   return (
-    <div id="good">
+    <div className="overflow-x-clip" id="good">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div data-aos="fade-right" className="col-lg-5 col-md-6">

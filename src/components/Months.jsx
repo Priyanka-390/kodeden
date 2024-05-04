@@ -2,10 +2,10 @@ import Buttons from "./Buttons";
 import Image from "next/image";
 export default function Months() {
   return (
-    <div className="position-relative z-0">
+    <div className="position-relative overflow-x-clip z-0">
       <Image src="/assets/images/svg/monthvector.svg" width={160} height={60} alt="month" className="monthvector d-md-block d-none position-absolute" />
       <div className="container">
-        <h2 data-aos="zoom-in" className="ff-jost text-white pt-3 mb-0  mt-1 text-center fw-semibold fs-24 lh-31">
+        <h2 data-aos="zoom-in" className="ff-jost text-uppercase text-white pt-3 mb-0  mt-1 text-center fw-semibold fs-24 lh-31">
           Become a <span className="text-orange-gradient">Software</span> Engineer Now!
         </h2>
         <p data-aos="zoom-in" className="fs-16 ff-jost text-lightgrey pb-1 mb-0 fw-normal text-center pt-2">No Math or Science Background Needed</p>
@@ -13,7 +13,7 @@ export default function Months() {
                   <Buttons text="Book a Call NOW" />
                 </div>
         <div id="about"  className="row flex-column-reverse align-items-center flex-lg-row pt-sm-5 pt-3 mt-5">
-          <div className="col-lg-7 pt-lg-0 pt-3">
+          <div className="col-lg-7 pt-lg-2 pt-3">
             <h2 data-aos="fade-right" className="ff-jost mb-0 pb-1 text-lg-start text-center fw-medium fs-50 lh-685 text-grey2">
               What is KodeDen's{" "}
               <span className=" text-orange-gradient">6-Month</span> <span className="d-lg-block xl-nowrap">

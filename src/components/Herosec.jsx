@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Insta, Linkdin, Sideicon, Telegram, Twittericon } from "./Icon";
 export default function Herosec() {
   return (
-    <div id="#home" className="pt-5 position-relative z-1">
+    <div id="#home" className="pt-5 overflow-x-clip position-relative z-1">
       <div className="smalliconbox z-1"><Sideicon />
       <div className="sideiconbox">
         <a href="https://twitter.com/i/flow/login" target="blank"><Twittericon /></a>
@@ -31,7 +31,7 @@ export default function Herosec() {
                 width={996}
                 height={476}
                 alt="hero"
-                className="w-100 rounded-4 object-fit-cover"
+                className="w-100 rounded-4 max-md-h-380 object-fit-cover"
                       />
                        <div className="">
             <Image

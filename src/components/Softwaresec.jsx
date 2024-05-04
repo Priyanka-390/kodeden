@@ -3,7 +3,7 @@ import { Cardarrow } from "./Icon";
 import { Softwaredata } from "./Mapdata";
 export default function Softwaresec() {
   return (
-    <div id="how" className="py-5 position-relative z-0">
+    <div id="how" className="py-5 overflow-x-clip position-relative z-0">
       <Image src="/assets/images/svg/softwarevector.svg" width={160} height={60} alt="software" className="position-absolute d-md-block d-none softwarevector"/>
       <div className="container py-md-5 pb-3 my-sm-5">
         <h2 data-aos="fade-right" className="text-center text-grey2 pt-md-5 mt-sm-5 fs-50 mb-0 fw-medium ff-jost lh-685">

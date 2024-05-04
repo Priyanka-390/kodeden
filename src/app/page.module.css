@@ -8,9 +8,6 @@
 :root {
   --hover: hover 1s linear infinite;
 }
-.fs-80{
-  font-size: 80px;
-}
 .text_animate {
   -webkit-text-stroke: 2px white;
 }
@@ -246,10 +243,13 @@
 .slidercard:hover {
   box-shadow: 0px 5px 0px 5px white;
 }
+.overflow-x-clip{
+  overflow-x: clip;
+}
 .softwarecard {
   padding: 0 0 21.42px 13.53px;
   border: 1.13px solid #e4e4e4;
-  max-width: 298px;
+  max-width: 287px;
   width: 100%;
   transition: all 300ms linear !important;
 }
@@ -434,5 +434,9 @@
 @media (max-width: 576px) {
   .max-md-h-380 {
     height: 380px;
+  }
+  .my-45{
+    margin-top: -45px;
+    margin-bottom: -45px;
   }
 }

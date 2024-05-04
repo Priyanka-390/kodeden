@@ -32,7 +32,7 @@ export default function Students() {
     ]
   };
   return (
-    <div className="py-lg-5 my-md-5 position-relative">
+    <div className="py-lg-5 overflow-x-clip my-md-5 position-relative">
       <div className="container py-sm-5 my-5">
         <h2 data-aos="flip-down" className=" ff-jost text-grey2 fw-medium text-center pt-3 mb-0 pb-md-5 pb-3 fs-50 lh-72">
           What our <span className="text-orange-gradient">students</span> are
